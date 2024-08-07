@@ -106,7 +106,7 @@ def predict_code_switch_language(sentence):
 
 @app.route('/')
 def home():
-    return render_template('index1.html')
+    return render_template('index.html')
 
 @app.route("/predict_code_switch/", methods=["POST"])
 def get_code_switch_language_predictions():
